@@ -33,6 +33,10 @@ PUT: /put_tardis/:id
 DELETE: /delete_tardis/:id
 
 
+
+
+
+
 ### DIMENSIONES
 
 #### Obtener información de la Dimension mediante su ID 
@@ -57,6 +61,11 @@ PUT: /put_dimension/:id
 DELETE: /delete_dimension/:id
 
 
+
+
+
+
+
 ### PERSONA
 
 #### Obtener información de la Persona mediante su ID 
@@ -79,6 +88,11 @@ PUT: /put_persona/:id
 
 #### Borrar Persona mediante su ID 
 DELETE: /delete_persona/:id
+
+
+
+
+
 
 
 
