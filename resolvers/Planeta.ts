@@ -49,7 +49,7 @@ const getPlaneta = async (req: Request, res: Response) => {
         const { id } = req.params;
 
         // Encontrar el planeta especificado y relacionarlo con las personas usando metodo populate
-        const planeta = await PlanetasModel.findById(id).populate("id_personas").exec();
+        const planeta = await PlanetasModel.findById(id).populate("id_per").exec();
 
         // Verificar si el planeta existe
         if (!planeta) {
